@@ -1,0 +1,138 @@
+header {
+  background: rgb(212, 216, 53);
+  padding: 20px;
+}
+
+header ul {
+  list-style-type: disc;
+}
+
+header li {
+  display: table-cell;
+  border: 0px solid #3A5D91;
+}
+
+header a {
+  text-decoration: none;
+  color : #3A5D91;
+  padding: 20px;
+  display: table;
+}
+
+
+.hero {
+  background: rgb(58, 93, 145) url('image/640_esope.jpg') top center no-repeat;
+background-size: cover;
+background-attachment: fixed;
+  color : #fff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1{
+font-family: 'Tangerine',cursive;
+font-size: 6em;
+background: rgba(58, 93, 145, 0.75);
+padding: 24px;
+}
+
+section {
+  min-height: 30vh;
+  padding: 70px;
+}
+
+.odd {
+  background: rgb(212, 216, 53);
+}
+
+.even {
+  background: rgb(58, 93, 145);
+}
+
+
+
+
+.image-block {
+  max-width: 400px;
+  border: 20px solid #000000;
+}
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style:normal;
+
+}
+
+footer {
+  min-height: 200px;
+  background: #3A5D91;
+  color : #D4D835;
+}
+
+#section01 h1 {
+  font-family: 'Mali', cursive;
+  font size: 3em
+  text-align:center;
+}
+
+#section01 p{
+font-family: 'Oswald', sans-serif;
+font-size: 2em
+text-align:justify;
+}
+
+#section02 h1{
+font-family: 'Kodchasan', sans-serif;
+font-size: 3em
+text-align: center;
+}
+
+#section02 p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2em
+  text-align: justify;
+}
+
+#section03 h1 {
+  font-family: 'Noto Serif', serif;
+  font size: 3em
+  text-align:center;
+}
+
+#section03 p{
+font-family: 'Nunito', sans-serif;
+font-size: 2em
+text-align:justify;
+}
+
+#section04 h1 {
+  font-family: 'Quicksand', sans-serif;
+  font size: 3em
+  text-align:center;
+}
+
+#section04 p{
+  font-family: 'Crimson Text', serif;
+font-size: 2em
+text-align:justify;
+}
+
+
+#section05 h1 {
+  font-family: 'Indie Flower', cursive;
+  font size: 3em
+  text-align:center;
+}
+
+#section05 p{
+font-family: 'Oxygen', sans-serif;
+font-size: 2em
+text-align:right;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Mali|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Kodchasan|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Nunito');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Quicksand');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Oxygen');
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Tangerine',cursive;
+  font-weight: 300;
+  line-height: 1.45;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Oswald',sans-serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  text-align: center;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
